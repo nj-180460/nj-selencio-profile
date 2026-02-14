@@ -61,6 +61,16 @@ export const resumeData = {
       "Docker", "Kubernetes", "RabbitMQ", "Apache Kafka", "CI/CD (GitLab/GitHub Actions)",
       "Unit Testing", "JIRA/Confluence", "Splunk", "Grafana", "Swagger/OpenAPI"
     ],
+    certifications: [
+        { name: "Advanced Spring Boot", url: "https://www.udemy.com/certificate/UC-c8e36d44-a980-4149-bad4-8c892836ee95/" },
+        { name: "Learn AWS - Deploy Java Spring Boot to AWS", url: "https://www.udemy.com/certificate/UC-2eefe75e-4c42-45a9-a745-b476087143c7/" },
+        { name: "API and Web Service Introduction", url: "https://www.udemy.com/certificate/UC-68a0ec95-6692-4036-931a-b4506b66ad9c/" },
+        { name: "ASP.NET Core Web API Bootcamp", url: "https://www.udemy.com/certificate/UC-9718fb20-1706-43c7-a269-3a0f0bb37850/" },
+        { name: "Problem Solving (Basic) Certificate", url: "https://www.hackerrank.com/certificates/1fc12a1b18e3" },
+        { name: "Azure DevOps Fundamentals for Beginners", url: "https://www.udemy.com/certificate/UC-187a037b-38f9-4aee-8e91-834ed3396d37/" },
+        { name: "The Vue 3 Bootcamp - Complete Guide", url: "https://www.udemy.com/certificate/UC-e86e42c2-0ae4-49f6-a52b-efea4fc26c1d/" },
+        { name: "GitLab CI/CD: Pipelines & DevOps", url: "https://www.udemy.com/certificate/UC-4d493a87-1eb7-4959-9290-2d3328af1eb4/" }
+    ],
     education: {
       degree: "Bachelor of Science in Information Technology",
       school: "University of Eastern Philippines",
@@ -68,4 +78,3 @@ export const resumeData = {
       period: "2018 - 2022"
     }
   };
-  

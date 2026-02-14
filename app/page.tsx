@@ -76,6 +76,27 @@ export default function ResumePage() {
             </div>
           </section>
 
+          <section>
+            <h2 className="text-blue-600 dark:text-blue-400 font-black text-xs tracking-[0.3em] uppercase mb-6">Certifications</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              {resumeData.certifications.map((cert, i) => (
+                <a 
+                  key={i} 
+                  href={cert.url} 
+                  target="_blank" 
+                  className="group p-3 border border-zinc-200 dark:border-zinc-800 rounded-lg hover:border-blue-500 transition-all flex justify-between items-center"
+                >
+                  <span className="text-sm font-medium text-zinc-700 dark:text-zinc-300 group-hover:text-blue-500">
+                    {cert.name}
+                  </span>
+                  <span className="text-xs text-blue-500 opacity-0 group-hover:opacity-100 transition-opacity">
+                    VIEW ↗
+                  </span>
+                </a>
+              ))}
+            </div>
+          </section>
+
           <section className="pt-8 border-t border-zinc-100 dark:border-zinc-800">
             <h2 className="text-blue-600 dark:text-blue-400 font-black text-xs tracking-[0.3em] uppercase mb-4">Education</h2>
             <div className="flex justify-between items-start flex-wrap gap-2">
