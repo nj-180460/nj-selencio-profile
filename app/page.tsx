@@ -52,7 +52,14 @@ export default function ResumePage() {
                     <h3 className="font-bold text-zinc-900 dark:text-white uppercase">{exp.role}</h3>
                     <span className="text-[10px] font-black text-zinc-400 uppercase">{exp.period}</span>
                   </div>
-                  <p className="text-blue-600 dark:text-blue-400 text-xs font-bold mb-3">{exp.company}</p>
+                  <a 
+                    href={exp.url} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="text-blue-600 dark:text-blue-400 text-xs font-bold mb-3 hover:underline inline-block transition-all"
+                  >
+                    {exp.company} ↗
+                  </a>
                   <ul className="space-y-2">
                     {exp.points.map((p, j) => (
                       <li key={j} className="text-sm text-zinc-600 dark:text-zinc-400 flex gap-2">
